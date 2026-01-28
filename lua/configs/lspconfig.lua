@@ -3,6 +3,7 @@ require("nvchad.configs.lspconfig").defaults()
 local servers = {
   "clangd",
   "pyright",
+  "ruff",
   "gopls",
   "rust_analyzer",
   "bashls",

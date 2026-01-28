@@ -17,16 +17,16 @@ return {
   { import = "nvchad.blink.lazyspec" },
 
   {
-  	"nvim-treesitter/nvim-treesitter",
-  	opts = {
-  		ensure_installed = {
-  			"vim", "lua", "vimdoc",
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
+        "lua",
         "cpp",
         "go",
         "rust",
         "yaml",
         "dockerfile",
-  		},
-  	},
+      },
+    },
   },
 }
